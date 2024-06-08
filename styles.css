@@ -1,13 +1,24 @@
+@font-face {
+    font-family: 'hackgenR';
+    src: url(./fonts/HackNerdFontMono-Regular.ttf); 
+}
+
+@font-face {
+    font-family: 'hackgenB';
+    src: url(./fonts/Makinas-4-Flat.otf);
+}
+
 body {
     background-color: #fcf4e4;
     /* color: #839496; */
-    font-family: monospace;
-    font-size: 1.6em;
+    /* font-family: monospace; */
+    font-size: 1.5em;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
     height: 100vh;
+    font-family: 'hackgenR';
 }
 
 .logo {
@@ -34,16 +45,26 @@ body {
 }
 
 #profile {
+    margin-top: 5px;
     font-size: .8em;
 }
 
-.large {
-    font-size: 1.5em;
-    letter-spacing: .33em;
+#name_ {
+    font-family: 'hackgenB';
+    margin-left: 5px;
+    font-size: 1.2em;
+    letter-spacing: .38em;
 }
 
-.Huge {
-    font-size: 3.5em;
+#HN {
+    font-family: 'hackgenB';
+    margin-left: 5px;
+    font-size: 1.2em;
+}
+
+#name {
+    font-family: 'hackgenB';
+    font-size: 3.2em;
 }
 
 .box {
@@ -53,6 +74,7 @@ body {
 .container {
     display: flex;
     align-items: flex-start;
+    color: #55717b;
 }
 
 div.neofetch span {
@@ -87,4 +109,8 @@ a {
 
 .info-value a {
     color: #657b83;
+}
+
+p {
+    margin-top: 0;
 }
