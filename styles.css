@@ -19,6 +19,7 @@ body {
     margin: 0;
     height: 100vh;
     font-family: 'hackgenR';
+    transition: all 0.5s;
 }
 
 .logo {
@@ -113,4 +114,136 @@ a {
 
 p {
     margin-top: 0;
+}
+
+@media (max-width: 1000px) {
+    body {
+        font-size: 1.2em;
+    }
+    .logo img {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        font-size: 1em;
+    }
+    
+    .box {
+        margin-left: 20px;
+    }
+    
+    #profile {
+        font-size: .1em;
+        margin-bottom: 10px;
+    }
+    
+    #name_ {
+        font-size: 1em;
+    }
+    
+    #name {
+        font-size: 2.5em;
+    }
+
+    .logo img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: .8em;
+    }
+    
+    #profile {
+        font-size: 7px;
+        margin-bottom: 5px;
+    }
+    
+    #name_ {
+        font-size: 1em;
+    }
+    
+    #name {
+        font-size: 2.9em;
+    }
+
+    .logo img {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 500px) {
+    .neofetch {
+        padding: 10px;
+        width: calc(min(100vw - 5em, 60em));
+        height: 90vh;
+    }
+
+    body {
+        font-size: .7em;
+    }
+    
+    #profile {
+        font-size: 5px;
+        margin-bottom: 3px;
+    }
+    
+    #name_ {
+        font-size: .9em;
+    }
+    
+    #name {
+        font-size: 2.4em;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .box {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    body {
+        font-size: .6em;
+    }
+    
+    #profile {
+        font-size: 3.6px;
+        margin-bottom: 1px;
+    }
+    
+    #name_ {
+        font-size: .3em;
+        margin-left: 2px;
+        letter-spacing: 1.5px;
+    }
+    
+    #HN {
+        font-size: .3em;
+        margin-left: 2px;
+        letter-spacing: 1.5px;
+    }
+    
+    #name {
+        font-size: 2em;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .box {
+        margin-left: 5px;
+    }
 }
