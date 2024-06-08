@@ -1,0 +1,90 @@
+body {
+    background-color: #fcf4e4;
+    /* color: #839496; */
+    font-family: monospace;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.neofetch {
+    /* border-style: solid; */
+    /* border-color: #acc2c2; */
+    /* border-width: 5px; */
+    background-color: #fdf6e3;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    height: calc(100vh - 10em);
+    overflow-y: scroll;
+    width: calc(min(100vw - 10em, 60em));
+}
+
+#profile {
+    font-size: .8em;
+}
+
+.large {
+    font-size: 1.5em;
+    letter-spacing: .33em;
+}
+
+.Huge {
+    font-size: 3.5em;
+}
+
+.box {
+    margin-left: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+div.neofetch span {
+    line-height: 150%;
+}
+
+.info-title {
+    color: #b58900;
+}
+
+.info-value {
+    color: #657b83;
+}
+
+.ml {
+    margin-left: 0px;
+    /* margin-left: 40px; */
+}
+
+.mml {
+    margin-left: 0px;
+    /* margin-left: 80px; */
+}
+
+div.neofetch span {
+    white-space: pre;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info-value a {
+    color: #657b83;
+}
