@@ -46,6 +46,7 @@ body {
 }
 
 #profile {
+    font-style: monospace;
     margin-top: 5px;
     font-size: .8em;
 }
@@ -124,15 +125,15 @@ p {
         width: 230px;
         height: 230px;
     }
+    
+    .box {
+        margin-left: 20px;
+    }
 }
 
 @media (max-width: 800px) {
     body {
         font-size: 1em;
-    }
-    
-    .box {
-        margin-left: 20px;
     }
     
     #profile {
